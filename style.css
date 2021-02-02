@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.colour-gradient-block {
+    height: 200px;
+    width: 1000px;
+    position: relative;
+    cursor: cell;
+  }
+  
+.colour-layer {
+    height: 100%;
+    width: 100%;
+
+    border-style: solid;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 32px 15px rgba(83,171,242,0.68); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 32px 15px rgba(83,171,242,0.68);
+    border-color: rgb(187, 223, 221);
+   
+    background: linear-gradient(
+      to right,
+      rgb(255 0 0),
+      rgb(255 255 0),
+      rgb(0 255 0),
+      rgb(0 255 255),
+      rgb(0 0 255),
+      rgb(255 0 255),
+      rgb(255 0 0)
+);
+  }
+
+div {
+      color: rgb(138, 143, 143);
+      font-size: 24px;
+  }
+
+
+span{
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+  }
+
+span.colour-red {
+    color: rgb(241, 67, 67);
+}
+
+span.colour-green {
+      color: rgb(33, 161, 112);
+  }
+
+span.colour-blue {
+    color: rgb(48, 130, 224);
+}
+
+span.hex-code {
+    color:rgb(113, 146, 146);
+    text-transform: uppercase;
+}
+
+  
+  
